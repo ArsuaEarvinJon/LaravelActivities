@@ -2,8 +2,8 @@
 @section('title'.'Home')
 @section('content')
 
-<div class="container"></div>
-    <div class="new">
-        <h1>Home Page Content</h1>
-    </div>
+<h5>i am going to show you an array i made</h5>
+@foreach($arr as $num)
+{{ ($num) }} <br>
+@endforeach
 @endsection
